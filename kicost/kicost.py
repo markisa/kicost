@@ -1901,7 +1901,7 @@ def get_farnell_part_html_tree(dist, pn, extra_search_terms='', url=None, descen
     elif url[0] == '/':
         url = 'http://export.farnell.com' + url
     elif url.startswith('..'):
-        url = 'http://www.export.farnell.com/' + url
+        url = 'http://export.farnell.com/Search' + url
 
     # Open the URL, read the HTML from it, and parse it into a tree structure.
     for _ in range(HTML_RESPONSE_RETRIES):
