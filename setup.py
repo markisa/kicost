@@ -33,7 +33,7 @@ test_requirements = [
 setup(
     name='kicost',
     #version=kicost.__version__,
-    version='1.0.0',
+    __version__ = '1.0.0',
     description="Build cost spreadsheet for a KiCad project.",
     long_description=readme + '\n\n' + history,
     author=kicost.__author__,
