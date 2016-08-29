@@ -52,7 +52,7 @@ def main():
         description='Build cost spreadsheet for a KiCAD project.')
     parser.add_argument('-v', '--version',
                         action='version',
-                        version='KiCost ' + __version__)
+                        version='KiCost ')
     parser.add_argument('-i', '--input',
                         nargs='?',
                         type=str,
