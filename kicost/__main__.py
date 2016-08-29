@@ -35,8 +35,8 @@ import sys
 import logging
 import time
 from .kicost import *
-#from . import __version__
-__version__ = '1.0.0'
+from . import __version__
+#__version__ = '1.0.0'
 
 NUM_PROCESSES = 30  # Maximum number of parallel web-scraping processes.
 
