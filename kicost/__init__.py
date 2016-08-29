@@ -4,4 +4,4 @@ __author__ = 'XESS Corporation'
 __email__ = 'info@xess.com'
 
 #from .version import __version__
-version='1.0.0'
+__version__ = '1.0.0'
